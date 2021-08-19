@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site de venda de componentes de informática">
+        <meta name="keywords" content="Informática, componentes de informática, teclados, mouses, monitores">
+        <meta name="author" content="DarkSide Dev">
+        <title>DarkSide Dev - Informática</title>
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/index.css">
+    </head>
+
+    <body>
+        
+        <header class="cabecalho">
+
+            <h1 class="logo">
+                <a href="index.html" title="Loja de Informática - DarkSide">Loja de Informática - DarkSide</a>
+            </h1>
+
+            <form action="" method="GET">
+
+                <input id="input" type="search" name="pesquisa" id="pesquisa" placeholder="Faça sua pesquisa">
+                <button onmouseover="expand(true)" onmouseleave="expand(false)"><img src="./assets/img/search.png" alt="Pesquisar" draggable="false"></button>
+
+            </form>
+
+        </header>
+
+        <nav class="menu">
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+            </ul>
+
+            <div class="social-icons">
+
+                <a target="_blank" href="https://www.facebook.com/darksideprogrammer">
+                    <img src="./assets/img/facebook.png" alt="Facebook" draggable="false">
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/darkside_developer/">
+                    <img src="./assets/img/instagram.png" alt="Instagram" draggable="false">
+                </a>
+
+                <a target="_blank" href="https://www.youtube.com/channel/UCnZLd-2agDMUiIKROD3gu1A">
+                    <img src="./assets/img/youtube.png" alt="Youtube" draggable="false">
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/company/darkside-company/about/">
+                    <img src="./assets/img/linkedin.png" alt="LinkedIn" draggable="false">
+                </a>
+
+            </div>
+
+        </nav>
+
+        <main class="main-container-services">
+
+            <article class="services-area">
+
+                <h2>Serviços</h2>
+
+                <div class="services">
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/computer.png" alt="Computador">
+
+                        <p>Troca de Computadores</p>
+
+                    </div>
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/ram.png" alt="Acessórios">
+
+                        <p>Troca de Acessórios</p>
+
+                    </div>
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/support.png" alt="Manutenção">
+
+                        <p>Manutenção Geral</p>
+
+                    </div>                    
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/delivery.png" alt="Entrega">
+
+                        <p>Entrega Grátis para Parceiros</p>
+
+                    </div>
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/support-online.png" alt="Suporte Online">
+
+                        <p>Suporte Online</p>
+
+                    </div>
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/discount.png" alt="Desconto">
+
+                        <p>Desconto em Empresas Filiadas</p>
+
+                    </div>
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/api.png" alt="A P I">
+
+                        <p>Consumo de API</p>
+
+                    </div>
+
+                    <div class="services-block">
+
+                        <img src="./assets/img/cloud.png" alt="Banco de Dados na Nuvem">
+
+                        <p>BD Online para Parceiros</p>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="services-area">
+
+                <h2>Empresas Filiadas</h2>
+
+                <div class="services">
+
+                    <div class="company-block">
+
+                        <img src="./assets/img/microsoft.png" alt="Microsoft">
+
+                    </div>
+
+                    <div class="company-block">
+
+                        <img src="./assets/img/google.png" alt="Google">
+
+                    </div>
+
+                    <div class="company-block">
+
+                        <img src="./assets/img/coinext.png" alt="Coinext">
+
+                    </div>
+
+                    <div class="company-block">
+
+                        <img src="./assets/img/proa.png" alt="Proa">
+
+                    </div>
+
+                    <div class="company-block">
+
+                        <img src="./assets/img/riot.png" alt="Riot">
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </main>
+        
+        <section class="newsletter">
+
+            <div class="newsletter-info">
+
+                <h3>Newsletter</h3>
+
+                <p>Receba nossas promoções por E-mail</p>
+
+                <form action="" method="GET">
+
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+
+                    <input type="email" name="email" id="email" placeholder="Digite o seu e-mail aqui">
+
+                    <button>Enviar</button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <p>&copy Loja de Informática DarkSide - Todos os direitos reservados</p>
+
+        </footer>
+
+        <script src="./assets/js/index.js"></script>
+
+    </body>
+
+</html>
